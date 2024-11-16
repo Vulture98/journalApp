@@ -1,0 +1,7 @@
+spring:
+  application:
+    name=Journal App
+  data:
+    mongodb:
+      uri=mongodb://newAdmin:newPassword@localhost:27017/journal?authSource=admin
+      auto-index-creation=true
